@@ -1,7 +1,5 @@
 # cruzhacks-2020-backend-authentication-npm
 
-
-
 [work in progess] This will eventually be a Github package registry once the beta version has been released. 
 
 This module is a set of functions for our backend services to securely communicate with each other.
