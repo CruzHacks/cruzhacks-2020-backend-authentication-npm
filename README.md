@@ -5,7 +5,7 @@
 This module is a set of functions for our backend services to securely communicate with each other.
 
 ## Installation
-### Note: Installation process will slightly change after it is a Githib package registry.
+### Note: Installation process will slightly change after it is a Github package registry.
 1. `git clone` this repository
 2. Install this local module by calling `npm install --save [path where you cloned this module]`
 
