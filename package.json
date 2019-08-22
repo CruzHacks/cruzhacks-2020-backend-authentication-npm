@@ -8,6 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiluong/cruzhacks-2020-backend-authentication-npm"
-  }
+    "url": "git+https://github.com/tiluong/cruzhacks-2020-backend-authentication-npm.git"
+  },
+  "homepage": "https://github.com/tiluong/cruzhacks-2020-backend-authentication-npm#readme",
+  "keywords": [],
+  "author": ""
 }
