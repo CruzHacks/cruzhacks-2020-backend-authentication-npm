@@ -1,16 +1,21 @@
 {
-  "name": "cruzhacks-2020-backend-authentication-npm",
+  "name": "cruzhacks-2020-backend-authorization-npm",
   "version": "1.0.0",
-  "description": "An npm package for machine-to-machine authentication.",
+  "description": "An npm package for machine-to-machine authorization.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiluong/cruzhacks-2020-backend-authentication-npm.git"
+    "url": "git+https://github.com/CruzHacks/cruzhacks-2020-backend-authorization-npm.git"
   },
-  "homepage": "https://github.com/tiluong/cruzhacks-2020-backend-authentication-npm#readme",
+  "homepage": "https://github.com/CruzHacks/cruzhacks-2020-backend-authorization-npm#readme",
   "keywords": [],
-  "author": ""
+  "author": "",
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "express-jwt": "^5.3.1",
+    "jest": "^24.9.0"
+  }
 }
