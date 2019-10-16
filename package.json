@@ -1,5 +1,5 @@
 {
-  "name": "cruzhacks-2020-backend-authorization-npm",
+  "name": "@cruzhacks/backend-authorization",
   "version": "1.0.0",
   "description": "An npm package for machine-to-machine authorization.",
   "main": "index.js",
