@@ -3,24 +3,15 @@ Will slowly start to transfer all helper functions to this file.
 Will eventually become m2m npm package
 */
 
-// Server modules
 const jwt = require('express-jwt');
-const getPublicKey = require('./getPublicKey');
-
-//Client modules
+const getPublicKey = require('./lib/getPublicKey');
 var request = require('request');
-var env = require('./env');
-var logger = require('./logger');
 
 require('dotenv').config();
 
 module.exports = {
-  foo: function () {
-    console.log("foo() function")
-  },
-
   /*
-  SERVER FUCNTIONS
+  SERVER
   */
 
   jwtCheck: function () {
@@ -33,7 +24,7 @@ module.exports = {
   },
 
   /* 
-  CLIENT FUCNTIONS 
+  CLIENT
   */
 
   getAccessToken: function (callback) {
@@ -68,4 +59,3 @@ module.exports = {
     });
   }
 }
-
